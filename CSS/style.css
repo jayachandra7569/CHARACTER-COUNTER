@@ -1,0 +1,43 @@
+main{
+    
+    justify-content: center;
+    width:450px;
+    height: 200px;
+    position: relative;
+    margin-left: 500px;
+    margin-top: 250px;
+    align-items: center;
+    background-color: rgba(240, 11, 240, 0.495);
+    border-radius: 5px;
+    box-shadow: rgba(230, 11, 11, 0.884);
+
+}
+body{
+    background-color: rgba(0, 255, 255, 0.512);
+}
+h2{
+    margin-left: 20px;
+    
+    position: relative;
+    padding-top: 25px;
+}
+
+#comment{
+    border:2px solid rgba(0, 0, 0, 0.475);
+    margin-left: 20px;
+    border-radius:5px;
+    resize: none;
+    /* text-align: center; */
+    padding-top: 20px;
+}
+.number{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+#Remaining{
+    color:red;
+}
+#Total-Count{
+    color:green;
+}
